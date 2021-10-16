@@ -1,10 +1,10 @@
 ### Stock_Analysis
 
-**1.Overview of the project
+**1.Overview of the project**
 
 The purpose of this project is to analyze whether refactoring code will create any substantial differences in the processing speed of the table results in VBA. The refactored code is compared to a tutorial code in order to show whether making core efficiencies to existing code can improve performance. The tutorial code was previously worked on, omitting tickerIndex, and the embedded Arrays of tickerIndex in the three other arrays used in the code.
 
-**2. Analysis
+**2. Analysis**
 
 Overview of the results can show drastic performance improvements from the refactored code to the tutorial code. Performance increased, reducing processing time by approximately 6x. A side by side comparison notes
 
@@ -18,7 +18,7 @@ Overview of the results can show drastic performance improvements from the refac
 
 As we can see refactoring this particular code, although not substantial in realtime, can have scaling effects, assuming parallel performance improvements. A six times reduction in processing time scaled may greatly diminish overall wait time for large projects. 
 
-**3. Summary
+**3. Summary**
 
     3.a Advantages to Refactoring
     
